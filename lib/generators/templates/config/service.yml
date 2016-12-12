@@ -15,19 +15,22 @@ services:
       documentationUrl: "TODO: Link to documentation page for service"
       supportUrl: "TODO: Link to support for the service"
       dashboard_client: 
-      plan_updateable: true
-      plans:
-        - name: "TODO: Add your plan"
-          id: "<%= SecureRandom.uuid %>"
-          description: "TODO: A short description of the service that will appear in the catalog"
-          metadata:
-            name: "TODO: A short name for the service plan to be displayed in a catalog"
-            description: "TODO: A description of the service plan to be displayed in a catalog"
-            bullets:
-              - "TODO: Features of this plan, to be displayed in a bulleted-list"
-            costs:
-              amount:
-                usd: 0
-              unit: "MONTHLY"
-            displayName: "TODO: Name of the plan to be display in graphical clients"
-          free: true
+        id: 'TODO: Add client id when you would like to provide dashboard client'
+        secret: 'TODO: Add client secret when you would like to provide dashboard client'
+        redirect_uri: 'TODO: http://path.to/dashboard/oauth_endpoint'
+    plan_updateable: true
+    plans:
+      - name: "TODO: Add your plan"
+        id: "<%= SecureRandom.uuid %>"
+        description: "TODO: A short description of the service that will appear in the catalog"
+        metadata:
+          name: "TODO: A short name for the service plan to be displayed in a catalog"
+          description: "TODO: A description of the service plan to be displayed in a catalog"
+          bullets:
+            - "TODO: Features of this plan, to be displayed in a bulleted-list"
+          costs:
+            amount:
+              usd: 0
+            unit: "MONTHLY"
+          displayName: "TODO: Name of the plan to be display in graphical clients"
+        free: true
