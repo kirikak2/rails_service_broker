@@ -1,6 +1,6 @@
-# RailsServiceBroker
+# Rails Service Broker
 
-Very simple solution for create service-broker on Ruby on Rails
+Very simple solution for create service broker on Ruby on Rails.
 
 ## Installation
 
@@ -35,7 +35,8 @@ When you would like to create AwesomeService ServiceBroker, you can write this.
 ```
 
 Service Broker Endpoint is create at `http://localhost:3000/awesome_service/` enjoy!
-You have to edit `config/awesome_service.yml` for write
+
+You have to edit `config/awesome_service.yml` for define service.
 
 ## Contributing
 
@@ -45,4 +46,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/kirika
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
