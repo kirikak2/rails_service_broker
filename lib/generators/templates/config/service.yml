@@ -1,6 +1,6 @@
 services:
   - name: "TODO: Put your service"
-    id: "<%= SecureRandom.uuid %>"
+    id: "<%= service_id %>"
     description: "TODO: Put your description"
     tags: "TODO: Put your service type"
     requires: ""
@@ -21,7 +21,7 @@ services:
     plan_updateable: true
     plans:
       - name: "TODO: Add your plan"
-        id: "<%= SecureRandom.uuid %>"
+        id: "<%= plan_id %>"
         description: "TODO: A short description of the service that will appear in the catalog"
         metadata:
           name: "TODO: A short name for the service plan to be displayed in a catalog"
